@@ -6,6 +6,19 @@
 /vendor/
 *.gem
 
+# Replit-only files and uploaded inputs
+/attached_assets/
+/PLAN.md
+/replit.md
+/.replit
+/.replitignore
+/.local/
+/.agents/
+/.conversation/
+/.config/
+/scripts/
+/artifacts/
+
 # Local tools and editor files
 .DS_Store
 Thumbs.db
