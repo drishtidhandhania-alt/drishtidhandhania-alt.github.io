@@ -1,0 +1,49 @@
+title: Drishti Dhandhania
+description: Product at Kargo and MBA candidate at Berkeley Haas.
+url: "https://drishtidhandhania-alt.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+timezone: America/Los_Angeles
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: Drishti Dhandhania
+
+social:
+  name: Drishti Dhandhania
+  links:
+    - https://www.linkedin.com/in/drishti-dhandhania/
+    - https://github.com/drishtidhandhania-alt
+
+exclude:
+  - attached_assets
+  - PLAN.md
+  - replit.md
+  - node_modules
+  - vendor
+  - .bundle
+  - .cache
+  - .local
+  - .agents
+  - .conversation
+  - scripts
+  - artifacts
+  - lib
+  - package.json
+  - package-lock.json
+  - pnpm-lock.yaml
+  - pnpm-workspace.yaml
+  - tsconfig.json
+  - tsconfig.base.json
+  - README.md
+  - .replit
+  - .replitignore
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - replit.md

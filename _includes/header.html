@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-wordmark" href="{{ '/' | relative_url }}" aria-label="Drishti Dhandhania — Home">
+      <span class="site-wordmark__mark" aria-hidden="true">DD</span>
+      <span>DRISHTI DHANDHANIA</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/experience/' | relative_url }}"{% if page.url == '/experience/' %} aria-current="page"{% endif %}>Work Experience</a>
+      <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>Contact</a>
+    </nav>
+  </div>
+</header>

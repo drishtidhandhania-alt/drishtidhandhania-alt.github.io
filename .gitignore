@@ -1,0 +1,13 @@
+# Jekyll output and local Ruby dependencies
+/_site/
+/.jekyll-cache/
+/.sass-cache/
+/.bundle/
+/vendor/
+*.gem
+
+# Local tools and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

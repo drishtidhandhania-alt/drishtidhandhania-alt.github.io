@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#111011"/>
+  <path d="M13 16h38M13 32h38M13 48h38" stroke="#dca7b8" stroke-width="2" opacity=".45"/>
+  <text x="32" y="39" fill="#f6eee9" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">DD</text>
+</svg>
