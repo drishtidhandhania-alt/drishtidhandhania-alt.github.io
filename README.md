@@ -48,9 +48,37 @@ Record the actual scores and whether the run used mobile or desktop settings.
 The target is 90 or higher in each category; do not report target scores as
 results unless Lighthouse actually returned them.
 
-## Publish through GitHub Pages
+## Publish changes from Replit
 
-In the repository's GitHub Pages settings, choose **Deploy from a branch**,
-select `main`, and choose `/ (root)`. GitHub Pages then builds this Jekyll site
-from the repository root. No separate app, backend, database, or manual build
-step is required for publishing.
+Local edits do not sync to GitHub automatically. Publish through Replit's
+connected **GitHub (App)** integration, which has write access to
+`drishtidhandhania-alt/drishtidhandhania-alt.github.io` and uses managed
+authentication. Do not copy a token into the workspace or a file.
+
+Before publishing:
+
+1. Preview the changes locally and run `bundle exec jekyll build`.
+2. Review the exact files to publish. The allowed site sources are
+   `index.md`, `about.md`, `experience.md`, `contact.md`,
+   `projects/*.md`, `_config.yml`, `_includes/**`, `_layouts/**`,
+   `assets/css/**`, `assets/js/**`, and individually approved files under
+   `assets/`. Repository support files `README.md`, `.gitignore`, `Gemfile`,
+   and `Gemfile.lock` may also be updated when needed.
+3. Ask Replit Agent to publish only those reviewed paths to the repository's
+   `main` branch through the connected GitHub integration. Review the paths and
+   commit message before confirming the change.
+4. Wait for the GitHub Actions **pages build and deployment** run to complete
+   successfully, then verify the changed public page or asset.
+
+Never publish `attached_assets/`, `PLAN.md`, `replit.md`, `.replit`,
+`.replitignore`, or Replit-only directories such as `.local/`, `.agents/`,
+`.conversation/`, `.config/`, and `scripts/`. Do not copy the entire workspace
+or `_site/` to GitHub. The `.gitignore` and Jekyll `exclude` list help keep
+local files out, but the reviewed path list is the publishing boundary.
+
+## GitHub Pages configuration
+
+The repository's GitHub Pages settings should use **Deploy from a branch**,
+`main`, and `/ (root)`. GitHub Pages then builds this Jekyll site from the
+repository root after a commit reaches `main`. No separate app, backend,
+database, or manual build step is required for publishing.
