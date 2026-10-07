@@ -10,6 +10,7 @@ timezone: America/Los_Angeles
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 author:
   name: Drishti Dhandhania
@@ -23,6 +24,7 @@ social:
 exclude:
   - attached_assets
   - Change1.md
+  - Change2.md
   - PLAN.md
   - replit.md
   - node_modules

@@ -8,12 +8,10 @@
     {% if page.url == '/' %}
       {% assign nav_about = '#about' %}
       {% assign nav_experience = '#work-experience' %}
-      {% assign nav_fitcircle = '#fitcircle' %}
       {% assign nav_contact = '#contact' %}
     {% else %}
       {% assign nav_about = '/about/' | relative_url %}
       {% assign nav_experience = '/experience/' | relative_url %}
-      {% assign nav_fitcircle = '/projects/fitcircle/' | relative_url %}
       {% assign nav_contact = '/contact/' | relative_url %}
     {% endif %}
 
@@ -21,7 +19,6 @@
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
       <a href="{{ nav_about }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
       <a href="{{ nav_experience }}"{% if page.url == '/experience/' %} aria-current="page"{% endif %}>Work Experience</a>
-      <a href="{{ nav_fitcircle }}"{% if page.url == '/projects/fitcircle/' %} aria-current="page"{% endif %}>FitCircle</a>
       <a href="{{ nav_contact }}"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>Contact</a>
     </nav>
   </div>

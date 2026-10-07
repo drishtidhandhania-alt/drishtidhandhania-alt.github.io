@@ -1,6 +1,6 @@
 # Change 2: Present FitCircle research and product decisions on Home
 
-**Status:** Carried from the preserved local work onto `fitcircle-research-story`, which starts at GitHub’s updated `main` after Improvement 1 merged. Do not commit or push Improvement 2 until Drishti reviews its Preview.
+**Status:** Preview is ready for Drishti’s review on `fitcircle-research-story`. Keep Improvement 2 uncommitted and unpushed until Drishti approves it.
 
 ## Git handoff
 
@@ -36,10 +36,10 @@ Use these two attached research images before the prototype UI:
 
 Use concise captions:
 
-- **Competitive positioning:** My positioning analysis explored the relationship between class inventory and social connections, and the opportunity FitCircle could target.
-- **Differentiation framework:** My strategy framework explored how invitations, preferences, attendance, and responses to nudges could inform a differentiated product over time.
+- **Competitive positioning:** My analysis of class inventory, social connections, and FitCircle’s intended positioning.
+- **Differentiation framework:** A strategic hypothesis for how social and attendance signals could inform the product over time.
 
-Include one discreet note: “Research and strategy artifacts reflect the project’s hypotheses and intended positioning.”
+Include one discreet note: “Strategy artifacts reflect project hypotheses and intended positioning.”
 
 Present the map as the author’s analysis and FitCircle’s intended positioning. Present the moat framework as a strategic hypothesis and broader vision, not implemented infrastructure or a proven competitive advantage. Do not repeat broad slide claims as established facts.
 
