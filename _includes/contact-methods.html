@@ -1,0 +1,18 @@
+{% assign contact_heading_tag = include.heading_tag | default: "h2" %}
+
+<section class="contact-method" aria-labelledby="email-heading">
+  <p class="eyebrow">EMAIL</p>
+  <{{ contact_heading_tag }} id="email-heading">
+    <a class="contact-email" href="mailto:dhandhaniadrishti@gmail.com">dhandhaniadrishti@gmail.com</a>
+  </{{ contact_heading_tag }}>
+  <p class="prose-note">The address is public. The link opens a visitor’s configured email app; the address can also be copied directly.</p>
+</section>
+
+<section class="contact-method" aria-labelledby="elsewhere-heading">
+  <p class="eyebrow">ELSEWHERE</p>
+  <{{ contact_heading_tag }} id="elsewhere-heading">Find me online</{{ contact_heading_tag }}>
+  <ul class="contact-links">
+    <li><a href="https://www.linkedin.com/in/drishti-dhandhania/">LinkedIn <span aria-hidden="true">↗</span></a></li>
+    <li><a href="https://github.com/drishtidhandhania-alt">GitHub <span aria-hidden="true">↗</span></a></li>
+  </ul>
+</section>
