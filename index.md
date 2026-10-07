@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Drishti Dhandhania — Product
-description: Product at Kargo and MBA candidate at Berkeley Haas, working where customer insight, data, and product meet.
+description: My work sits at the intersection of customer insight, data, and product, understanding where people get stuck and turning that insight into better experiences.
 permalink: /
 ---
 
@@ -9,15 +9,10 @@ permalink: /
   <p class="eyebrow"><span class="section-number">01</span> INTRODUCTION</p>
   <h1 id="home-title">Drishti Dhandhania</h1>
   <p class="home-intro__headline">Product @ Kargo <span aria-hidden="true">·</span> MBA @ Berkeley Haas</p>
-  <p class="home-intro__copy">
-    I work where customer insight, data, and product meet—turning moments of friction into better experiences.
-    After five years across ad tech, I’m now helping build the support infrastructure behind Karlo, Kargo’s
-    agentic AI platform. I’m pursuing my MBA at Berkeley Haas and exploring how thoughtful products can help
-    people build habits that stick.
-  </p>
   <div class="link-row">
-    <a class="text-link" href="#work-experience">Explore my experience <span aria-hidden="true">↗</span></a>
-    <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="https://github.com/drishtidhandhania-alt/drishtidhandhania-alt.github.io/blob/main/assets/drishti-dhandhania-resume.pdf">VIEW RESUME <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="https://www.linkedin.com/in/drishti-dhandhania" target="_blank" rel="noopener noreferrer">LINKEDIN <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="#contact">GET IN TOUCH <span aria-hidden="true">↗</span></a>
   </div>
 </section>
 
