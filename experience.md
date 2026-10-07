@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work Experience
-description: Drishti Dhandhania’s product, operations, and campaign experience.
+description: Customer research, experimentation, and AI product launches across five years in ad tech.
 permalink: /experience/
 nav_order: 3
 ---

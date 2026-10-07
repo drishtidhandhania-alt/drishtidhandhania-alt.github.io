@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: Learn about Drishti Dhandhania’s work across customer insight, data, and product.
+description: My work sits at the intersection of customer insight, data, and product, understanding where people get stuck and turning that insight into better experiences.
 permalink: /about/
 nav_order: 2
 ---
