@@ -22,6 +22,7 @@ social:
 
 exclude:
   - attached_assets
+  - Change1.md
   - PLAN.md
   - replit.md
   - node_modules
@@ -41,6 +42,7 @@ exclude:
   - tsconfig.json
   - tsconfig.base.json
   - README.md
+  - assets/drishti-dhandhania-resume.pdf
   - .replit
   - .replitignore
   - .gitignore
