@@ -9,12 +9,12 @@ and repository root:
 
 - Edit `index.md`, `about.md`, `experience.md`, and `contact.md` for the main
   pages.
-- Edit `projects/fitcircle.md` for the FitCircle project story.
+- The FitCircle story lives in `index.md`; `projects/fitcircle.md` redirects old
+  project links to the Home section.
 - Put approved site images and downloadable files in `assets/`. Use descriptive
   filenames and alt text for meaningful images.
 - Shared page structure lives in `_layouts/` and `_includes/`; styling is in
-  `assets/css/site.css`. The FitCircle gallery behavior is in
-  `assets/js/gallery.js`.
+  `assets/css/site.css`. FitCircle visuals are static figures in `index.md`.
 - Keep `baseurl` empty in `_config.yml` for this GitHub user site.
 
 ## Preview locally
@@ -39,8 +39,8 @@ site when changes are pushed to `main`.
 ## Check responsive behavior and Lighthouse
 
 In Chrome, open the local preview and use DevTools' device toolbar to inspect
-375px and 1280px widths. Check the navigation, project links, gallery controls,
-image captions, and keyboard focus.
+375px and 1280px widths. Check the navigation, FitCircle figures and captions,
+page links, and keyboard focus.
 
 To run Lighthouse, open Chrome DevTools → **Lighthouse**, select Performance,
 Accessibility, Best Practices, and SEO, and run the audit on the local preview.
