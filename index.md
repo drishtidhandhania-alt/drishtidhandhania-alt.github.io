@@ -10,7 +10,6 @@ permalink: /
   <h1 id="home-title">Drishti Dhandhania</h1>
   <p class="home-intro__headline">Product @ Kargo <span aria-hidden="true">·</span> MBA @ Berkeley Haas</p>
   <div class="link-row">
-    <a class="text-link" href="https://github.com/drishtidhandhania-alt/drishtidhandhania-alt.github.io/blob/main/assets/drishti-dhandhania-resume.pdf">VIEW RESUME <span aria-hidden="true">↗</span></a>
     <a class="text-link" href="https://www.linkedin.com/in/drishti-dhandhania" target="_blank" rel="noopener noreferrer">LINKEDIN <span aria-hidden="true">↗</span></a>
     <a class="text-link" href="#contact">GET IN TOUCH <span aria-hidden="true">↗</span></a>
   </div>
