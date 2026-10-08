@@ -36,32 +36,8 @@ permalink: /
   </header>
   {% include project-tags.html %}
   <p class="fitcircle-introduction">
-    I explored how social accountability could help turn fitness intentions into shared plans, combining competitive
-    analysis, product strategy, and a clickable Lovable prototype. The concept grounds that opportunity in everyday
-    coordination.
+    People work out more with friends, but between group chats, ClassPass, and Strava, nobody can tell who's actually going. I pitched FitCircle at Haas Startup Disco and interviewed 35 people to test the idea. Planning wasn't the problem. Follow-through was. A line from one customer interview summed it up: "If someone asks me, I'd say yes, but I wouldn't start it." So FitCircle is built around showing up. Small private circles share upcoming workouts, each friend marks themselves committed or considering, and booking stays an optional link. The metric that matters is attendance, not plans made.
   </p>
-
-  <div class="fitcircle-narrative">
-    <section class="fitcircle-narrative__item" aria-labelledby="fitcircle-problem">
-      <h3 id="fitcircle-problem">The problem</h3>
-      <p>Finding a workout does not resolve the friction of coordinating with friends and committing to a plan, including agreeing on an activity, place, time, and who is ready to go.</p>
-    </section>
-
-    <section class="fitcircle-narrative__item" aria-labelledby="fitcircle-hypothesis">
-      <h3 id="fitcircle-hypothesis">The hypothesis</h3>
-      <p>Making upcoming workouts visible within small, private circles could make it easier for friends to coordinate, see who is committed, and follow through together—a product hypothesis, not a measured outcome.</p>
-    </section>
-
-    <section class="fitcircle-narrative__item" aria-labelledby="fitcircle-built">
-      <h3 id="fitcircle-built">What I built</h3>
-      <p>A competitive positioning map, a differentiation framework, and a clickable prototype for creating or joining circles and sharing workout plans. The screens show how an upcoming plan can carry an activity, location, time, and committed-or-considering state, with booking left to an optional external link.</p>
-    </section>
-
-    <section class="fitcircle-narrative__item" aria-labelledby="fitcircle-decisions">
-      <h3 id="fitcircle-decisions">Key product decisions</h3>
-      <p>Small private circles; clear activity, location, and time details; committed versus considering status; and an optional external booking link.</p>
-    </section>
-  </div>
 
   <section class="fitcircle-research" aria-label="FitCircle research and strategy figures">
     <figure class="fitcircle-research__figure">
@@ -77,7 +53,7 @@ permalink: /
       </div>
       <figcaption>
         <span class="fitcircle-figure__title">Competitive positioning</span>
-        <span>My analysis of class inventory, social connections, and FitCircle’s intended positioning.</span>
+        <span>Where FitCircle sits on class inventory and friend connections.</span>
       </figcaption>
     </figure>
 
@@ -94,12 +70,10 @@ permalink: /
       </div>
       <figcaption>
         <span class="fitcircle-figure__title">Differentiation framework</span>
-        <span>A strategic hypothesis for how social and attendance signals could inform the product over time.</span>
+        <span>How social and attendance data could build a moat over time.</span>
       </figcaption>
     </figure>
   </section>
-
-  <p class="fitcircle-research-note">Strategy artifacts reflect project hypotheses and intended positioning.</p>
 
   <section class="fitcircle-prototype-area" aria-labelledby="fitcircle-prototype-heading">
     <h3 class="fitcircle-prototype-area__heading" id="fitcircle-prototype-heading">Prototype screens</h3>
